@@ -13,7 +13,7 @@ public class Stack {
     // Método para agregar un elemento a la pila
     public void push(int value) {
         if (top == stackArray.length - 1) {
-            System.out.println("Stack Overflow: No se puede agregar más elementos.");
+            System.out.println("No se puede agregar más elementos.");
         } else {
             stackArray[++top] = value;
         }
